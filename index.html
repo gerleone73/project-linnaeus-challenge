@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>
+			Taxonomy Tree
+		</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="tree">
+			<ul>
+				<li id="mammals" class="animal">
+					<a class="level-0"><img src="img/mammals.jpg" alt="Mammals"><br>Mammals</a>
+					<ul>
+						<li id="beavers" class="animal">
+							<a class="level-1"><img src="img/beaver.jpg" alt="Beavers"><br>Beavers</a>
+						</li>
+						<li id="camels" class="animal">
+							<a class="level-1"><img src="img/camels.jpg" alt="Camels"><br>Camels</a>
+							<ul>
+								<li id="true-camels" class="animal">
+									<a class="level-2">
+										<img src="img/camels.jpg" alt="True Camels"><br>True Camels</a>
+									<ul>
+										<li id="dromedary" class="animal">
+											<a class="level-3"><img src="img/camels.jpg" alt="Dromedary"><br>Dromedary</a>
+										</li>
+										<li id="bactrian" class="animal">
+											<a class="level-3"><img src="img/bactrian.jpg" alt="Bactrian"><br>Bactrian</a>
+										</li>
+									</ul>
+								</li>
+								<li id="llamas" class="animal">
+									<a class="level-2"><img src="img/lucas-the-llama.jpg" alt="Llamas"><br>Llamas</a>
+								</li>
+								<li id="vicuña" class="animal">
+									<a class="level-2"><img src="img/vicuna.jpg" alt="Vicuña"><br>Vicuña</a>
+								</li>
+							</ul>
+						</li>
+						<li class="animal" id="deer">
+							<a class="level-1"><img src="img/deer.jpg" alt="Deer"><br>Deer</a>
+						</li>
+						<li id="elephants" class="animal">
+							<a class="level-1"><img src="img/elephants.jpg" alt="Elephants"><br>Elephants</a>
+							<ul>
+								<li id="african" class="animal">
+									<a class="level-2"><img src="img/elephants.jpg" alt="African Elephant"><br>African Elephant</a>
+								</li>
+								<li id="asian" class="animal">
+									<a class="level-2"><img src="img/asian-elephant.jpg" alt="Asian Elephant"><br>Asian Elephant</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js">
+		</script>
+		<script src="app.js">
+		</script>
+	</body>
+
+</html>
